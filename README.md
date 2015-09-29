@@ -1,12 +1,12 @@
 # iOS-Parallax-Layer-Builder
-With this class you can build image scrollable layers, to implement a parallax scrolling effect.
+With this class you can build Images Scrollable Layers, to implement a parallax system.
 
 ![ScreenShot](https://raw.github.com/alchimya/iOS-Parallax-Layer-Builder/master/screenshots/iOS-Parallax-Layer-Builder.gif)
 
 # How to use
-Within this project/tutorial you will find an helper class (UIView sublass) that allow you to create 
-a scollable image layer to use as a layer of a parallax system.
-To create a layer you can use one of the following factory methods of the <b>L3SDKParallaxLayer</b> 
+Within this project/tutorial you will find a class (<b>L3SDKParallaxLayer</b>, UIView sublass) that allow to create a scrollable image layer to use as a layer of a parallax system.
+<br/>
+To create a layer you can use one of the following factory methods:
 ```objectivec
 
 -(instancetype)initWithFrame:(CGRect)frame
@@ -23,15 +23,17 @@ To create a layer you can use one of the following factory methods of the <b>L3S
 ```
 where:
 <br/>
-- <b>frame</b>:is the frame of the layer view.
+- <b>frame</b>:is the frame of the layer.
 - <b>imageName</b>:is the image that you want to use within the parallax layer.
-- <b>direction</b>:the direction of the scroll and it can assume one of the following value:
+- <b>direction</b>:is the direction of the scroll and it can assume one of the following value:
+```objectivec
 typedef enum : NSUInteger {
     L3SDKParallaxLayerScrollDirectionUp,
     L3SDKParallaxLayerScrollDirectionDown,
     L3SDKParallaxLayerScrollDirectionRight,
     L3SDKParallaxLayerScrollDirectionLeft
 } L3SDKParallaxLayerScrollDirection;
+```
 - <b>speed</b>:is the scroll speed (duration of the view animation).
 <br/>
 <br/>
