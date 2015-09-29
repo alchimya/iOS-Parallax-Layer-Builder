@@ -1,5 +1,5 @@
 # iOS-Parallax-Layer-Builder
-With this class you can build Images Scrollable Layers, to implement a parallax system (horizontal and vertical), where each layer can scroll to an indipendent direction.
+With this class you can build Image Scrollable Layers, to implement a parallax system (horizontal and vertical), where each layer can scroll to an indipendent direction.
 
 ![ScreenShot](https://raw.github.com/alchimya/iOS-Parallax-Layer-Builder/master/screenshots/iOS-Parallax-Layer-Builder.gif)
 
